@@ -102,6 +102,9 @@ def classify_intent(
     query_lower = state["query"].lower()
 
     policy_keywords = [
+        "policy",
+        "policies",
+        "support",
         "delivery",
         "return",
         "refund",
